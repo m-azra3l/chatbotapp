@@ -133,6 +133,7 @@ button:hover {
     width: 100%;
     align-items: center;
     padding: 10px 10px 10px 0px;
+    margin-right: 0px;
   }
 
   .welcome-images img {
