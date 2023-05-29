@@ -58,7 +58,7 @@ class Chatbot extends Component {
       const aiResponse = response.data.choices[0].message.content;
       const updatedMessagesWithAI = [...updatedMessages, { content: aiResponse, sender: 'bot', image: botImage }];
       this.setState({ messages: updatedMessagesWithAI });
-      console.log(aiResponse);
+      //console.log(aiResponse);
     } catch (error) {
       console.error(error);
       // Handle error
