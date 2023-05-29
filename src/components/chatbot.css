@@ -6,6 +6,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;  
+  overflow-x: hidden;
 }
 
 .welcome-side {
@@ -84,7 +85,7 @@ body {
 .user {
   background-color: #071c33;
   color: #fff;
-  text-align: right;
+  text-align: left;
 }
 
 .message img {
