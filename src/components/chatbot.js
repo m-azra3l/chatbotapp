@@ -21,7 +21,7 @@ class Chatbot extends Component {
   this.setState({
     messages: [...this.state.messages, {
       sender: "bot",
-      content: "Welcome to the chatbot, how can I help you?",
+      content: "Welcome to the chatbot, how can I help you? I will only be avilable till September 1, 2023",
       image: botImage
     }]
   });
