@@ -1,10 +1,11 @@
 body {
   background-color: #000;
+  overflow-x: hidden;
 }
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
 }
 
 .welcome-side {
@@ -127,7 +128,6 @@ button:hover {
 @media (max-width: 770px) {
   .container {
     flex-direction: column;
-    overflow-y: hidden;
   }
 
   .welcome-side {
