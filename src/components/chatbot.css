@@ -125,7 +125,23 @@ button {
 }
 
 button:hover {
-  background-color: #0d240e;
+  background-color: #1e6a44;
+}
+
+.clearButton {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;  
+  margin-left: 10px;
+  background-color: #600c02;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clearButton:hover {
+  background-color: #c60d0d;
 }
 
 @media (max-width: 770px) {

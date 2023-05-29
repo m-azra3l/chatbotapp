@@ -71,6 +71,16 @@ class Chatbot extends Component {
     }
   }
 
+  handleClearMessages = () => {
+    const initialBotMessage = {
+      sender: 'bot',
+      content: 'Welcome to the chatbot, how can I help you? I will only be available until September 1, 2023',
+      image: botImage
+    };
+  
+    this.setState({ messages: [initialBotMessage] });
+  };
+
   renderMessages = () => {
     const { messages } = this.state;
 
@@ -106,6 +116,7 @@ class Chatbot extends Component {
                 placeholder="Type your message..."
                 />
                 <button onClick={this.handleSendMessage}>Send</button>
+                <button className='clearButton' onClick={this.handleClearMessages}>Clear</button>
             </div>
         </div>
       </div>
