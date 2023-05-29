@@ -122,3 +122,34 @@ button {
 button:hover {
   background-color: #0d240e;
 }
+
+@media (max-width: 770px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .welcome-side {
+    width: 100%;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .welcome-text {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .welcome-images {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .chatbot-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+}
+
