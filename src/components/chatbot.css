@@ -127,13 +127,13 @@ button:hover {
 @media (max-width: 770px) {
   .container {
     flex-direction: column;
+    overflow-y: hidden;
   }
 
   .welcome-side {
     width: 100%;
     align-items: center;
     padding: 10px 10px 10px 0px;
-    margin-right: 0px;
   }
 
   .welcome-images img {
