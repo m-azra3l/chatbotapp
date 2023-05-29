@@ -134,6 +134,11 @@ button:hover {
     padding: 20px 10px;
   }
 
+  .welcome-images img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
   .welcome-text {
     text-align: center;
     margin-bottom: 10px;
